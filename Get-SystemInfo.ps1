@@ -1,5 +1,8 @@
 # Get-SystemInfo.ps1
 # Displays a summary of key system information in a readable format.
+#
+# If blocked by execution policy, run once in an elevated PowerShell session:
+#   Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 Write-Host "`n===== SYSTEM INFORMATION =====" -ForegroundColor Cyan
 
